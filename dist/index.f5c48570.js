@@ -542,7 +542,15 @@ const mouse = {
     x: undefined,
     y: undefined
 };
+const genRandomInt = (min, max)=>{
+    return Math.floor(Math.random() * (max - min + 1) + min);
+};
 // Event Listeners
+window.addEventListener("resize", function(e) {
+    canvas.width = this.innerWidth;
+    canvas.height = this.innerHeight;
+    init();
+});
 window.addEventListener("mousemove", function(e) {
     mouse.x = e.x;
     mouse.y = e.y;
@@ -552,6 +560,9 @@ function Ball(x, y, radius, color) {
     this.y = y;
     this.radius = radius;
     this.color = color;
+    this.radian = Math.random() * Math.PI * 2;
+    this.velocity = 0.05;
+    this.distance = genRandomInt(50, 120);
     this.draw = ()=>{
         c.beginPath();
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
@@ -560,13 +571,18 @@ function Ball(x, y, radius, color) {
         c.closePath();
     };
     this.update = function() {
+        this.radian += this.velocity;
+        // Circular Motion
+        this.x = x + Math.cos(this.radian) * this.distance;
+        this.y = y + Math.sin(this.radian) * this.distance;
         this.draw();
     };
 }
 // Implementations
 let balls = [];
 function init() {
-    for(let i = 0; i < 1; i++)balls.push(new Ball(canvas.width / 2, canvas.height / 2, 20, "red"));
+    balls = [];
+    for(let i = 0; i < 10; i++)balls.push(new Ball(canvas.width / 2, canvas.height / 2, 5, "blue"));
 }
 init();
 // Animation Loop
