@@ -538,14 +538,14 @@ const c = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 const colors = [
-    "red",
-    "blue",
-    "green",
-    "cyan"
+    "#EFFFFD",
+    "#1363DF",
+    "#47B5FF",
+    "#DFF6FF"
 ];
 const mouse = {
-    x: undefined,
-    y: undefined
+    x: canvas.width / 2,
+    y: canvas.height / 2
 };
 const genRandomInt = (min, max)=>{
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -575,18 +575,6 @@ function Ball(x, y, radius, color) {
         x,
         y
     };
-    this.draw = (lastPoint)=>{
-        c.beginPath();
-        // c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-        // c.fillStyle = this.color;
-        // c.fill();
-        c.moveTo(lastPoint.x, lastPoint.y);
-        c.lineTo(this.x, this.y);
-        c.strokeStyle = this.color;
-        c.lineWidth = this.radius;
-        c.stroke();
-        c.closePath();
-    };
     this.update = function() {
         // Move points over time
         const lastPoint = {
@@ -601,6 +589,15 @@ function Ball(x, y, radius, color) {
         this.x = this.lastMouse.x + Math.cos(this.radian) * this.distanceFromCenter;
         this.y = this.lastMouse.y + Math.sin(this.radian) * this.distanceFromCenter;
         this.draw(lastPoint);
+    };
+    this.draw = (lastPoint)=>{
+        c.beginPath();
+        c.moveTo(lastPoint.x, lastPoint.y);
+        c.lineTo(this.x, this.y);
+        c.strokeStyle = this.color;
+        c.lineWidth = this.radius;
+        c.stroke();
+        c.closePath();
     };
 }
 // Implementations
