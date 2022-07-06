@@ -1,0 +1,1 @@
+{"mappings":"AAAA,YAAY,CAAC;AACb,OAAO,CAAC,GAAG,CAAC,MAAM,CAAC,CAAC","sources":["script.js"],"sourcesContent":["\"use strict\";\r\nconsole.log(\"test\");\r\n"],"names":[],"version":3,"file":"index.672d4772.js.map","sourceRoot":"/__parcel_source_root/"}
