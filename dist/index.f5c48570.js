@@ -537,13 +537,21 @@ const canvas = document.getElementById("canvas1");
 const c = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-const colors = [];
+const colors = [
+    "red",
+    "blue",
+    "green",
+    "cyan"
+];
 const mouse = {
     x: undefined,
     y: undefined
 };
 const genRandomInt = (min, max)=>{
     return Math.floor(Math.random() * (max - min + 1) + min);
+};
+const genRandomColor = (colors1)=>{
+    return colors1[Math.floor(Math.random() * colors1.length)];
 };
 // Event Listeners
 window.addEventListener("resize", function(e) {
@@ -562,33 +570,48 @@ function Ball(x, y, radius, color) {
     this.color = color;
     this.radian = Math.random() * Math.PI * 2;
     this.velocity = 0.05;
-    this.distance = genRandomInt(50, 120);
-    this.draw = ()=>{
+    this.distance = genRandomInt(70, 150);
+    this.draw = (lastPoint)=>{
         c.beginPath();
-        c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-        c.fillStyle = this.color;
-        c.fill();
+        // c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+        // c.fillStyle = this.color;
+        // c.fill();
+        c.moveTo(lastPoint.x, lastPoint.y);
+        c.lineTo(this.x, this.y);
+        c.strokeStyle = this.color;
+        c.lineWidth = this.radius;
+        c.stroke();
         c.closePath();
     };
     this.update = function() {
+        const lastPoint = {
+            x: this.x,
+            y: this.y
+        };
         this.radian += this.velocity;
         // Circular Motion
         this.x = x + Math.cos(this.radian) * this.distance;
         this.y = y + Math.sin(this.radian) * this.distance;
-        this.draw();
+        this.draw(lastPoint);
     };
 }
 // Implementations
 let balls = [];
 function init() {
     balls = [];
-    for(let i = 0; i < 10; i++)balls.push(new Ball(canvas.width / 2, canvas.height / 2, 5, "blue"));
+    for(let i = 0; i < 50; i++){
+        const lineWidth = genRandomInt(1, 5);
+        const color = genRandomColor(colors);
+        balls.push(new Ball(canvas.width / 2, canvas.height / 2, lineWidth, color));
+    }
 }
 init();
 // Animation Loop
 function animate() {
     requestAnimationFrame(animate);
-    c.clearRect(0, 0, canvas.width, canvas.height);
+    // c.clearRect(0, 0, canvas.width, canvas.height);
+    c.fillStyle = "rgba(255,255,255,0.03)";
+    c.fillRect(0, 0, canvas.width, canvas.height);
     balls.forEach((ball)=>{
         ball.update();
     });
