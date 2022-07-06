@@ -33,8 +33,8 @@ function Ball(x, y, radius, color) {
   this.color = color;
   this.radian = Math.random() * Math.PI * 2;
   this.velocity = 0.05;
-  this.distance = genRandomInt(70, 150);
-
+  this.distanceFromCenter = genRandomInt(70, 150);
+  this.lastMouse = { x, y };
   this.draw = (lastPoint) => {
     c.beginPath();
     // c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
@@ -48,11 +48,17 @@ function Ball(x, y, radius, color) {
     c.closePath();
   };
   this.update = function () {
+    // Move points over time
     const lastPoint = { x: this.x, y: this.y };
     this.radian += this.velocity;
+    // Drag Effect
+
+    this.lastMouse.x += (mouse.x - this.lastMouse.x) * 0.05;
+    this.lastMouse.y += (mouse.y - this.lastMouse.y) * 0.05;
+
     // Circular Motion
-    this.x = x + Math.cos(this.radian) * this.distance;
-    this.y = y + Math.sin(this.radian) * this.distance;
+    this.x = this.lastMouse.x + Math.cos(this.radian) * this.distanceFromCenter;
+    this.y = this.lastMouse.y + Math.sin(this.radian) * this.distanceFromCenter;
     this.draw(lastPoint);
   };
 }
