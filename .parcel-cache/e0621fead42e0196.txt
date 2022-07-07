@@ -1,4 +1,4 @@
-4184
+4188
 139D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\abortcontroller-polyfill133015279478180125 1
 142D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@parcel\watcher\binding.gyp121436361000000000 0
 160D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\caniuse-lite\data\features\input-minlength.js121436361000000000 0
@@ -10,7 +10,7 @@
 147D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@parcel\utils\src\escape-html.js121436361000000000 0
 139D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\safe-buffer\package.json133015279488158578 0
 177D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\abortcontroller-polyfill\dist\abortcontroller-polyfill-only.js121436361000000000 0
-114D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\package.json133015287305494604 0
+114D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\package.json133015972969650311 0
 146D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\caniuse-lite\data\regions\TW.js121436361000000000 0
 146D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\source-map\lib\binary-search.js131369414910000000 0
 146D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\caniuse-lite\data\regions\PS.js121436361000000000 0
@@ -24,7 +24,7 @@
 170D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.c121436361000000000 0
 145D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\postcss-value-parser\README.md121436361000000000 0
 130D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\chalk\readme.md121436361000000000 0
-106D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist133015944404037284 1
+106D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist133015973134317114 1
 146D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\cosmiconfig\dist\loaders.js.map121436361000000000 0
 139D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\dom-serializer\README.md121436361000000000 0
 143D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@parcel\reporter-cli\LICENSE121436361000000000 0
@@ -44,8 +44,8 @@
 150D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@parcel\watcher\prebuilds\linux-x64133015279436817285 1
 137D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\msgpackr\node-index.js121436361000000000 0
 124D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\js-tokens133015279500960902 1
-115D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\src\script.js133015944385231035 0
-116D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\src\styles.css133015753001308148 0
+115D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\src\script.js133015971267192417 0
+116D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\src\styles.css133015968755742855 0
 123D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\htmlnano133015279486620128 1
 139D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\terser\tools\domprops.js121436361000000000 0
 142D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\lmdb\src\ordered-binary.cpp121436361000000000 0
@@ -3345,7 +3345,7 @@
 144D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@swc\helpers\lib\_decorate.js133008068090000000 0
 144D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@swc\helpers\lib\_defaults.js133008068090000000 0
 151D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@swc\helpers\lib\_define_property.js133008068090000000 0
-129D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.4d663569.css.map133015944404027310 0
+129D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.4d663569.css.map133015968760556514 0
 147D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@swc\helpers\lib\_export_star.js133008068090000000 0
 160D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@parcel\transformer-raw\src\RawTransformer.js121436361000000000 0
 191D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-musl.node121436361000000000 0
@@ -4175,11 +4175,15 @@
 130D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\.bin\semver.cmd133015279502878084 0
 126D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\.bin\terser133015279502972303 0
 130D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\node_modules\.bin\terser.cmd133015279502972303 0
-125D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.4d663569.css133015944403982434 0
+124D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.3d867581.js133015973134247309 0
+128D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.3d867581.js.map133015973134317114 0
+125D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.4d663569.css133015968760556514 0
 124D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.672d4772.js133015280433539298 0
 128D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.672d4772.js.map133015280433549285 0
 124D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.8cfc62b9.js133015286250950321 0
 128D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.8cfc62b9.js.map133015286250960639 0
-124D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.f5c48570.js133015944403952746 0
-128D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.f5c48570.js.map133015944404017339 0
-117D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.html133015944403897282 0
+125D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.ace6ded6.css133015973134247309 0
+129D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.ace6ded6.css.map133015973134317114 0
+124D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.f5c48570.js133015971267996817 0
+128D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.f5c48570.js.map133015971267996817 0
+117D:\STUDY\Web Development Learning\My Projects\JS Projects\Canvas Projects\Circular Animation on Hover\dist\index.html133015973134247309 0

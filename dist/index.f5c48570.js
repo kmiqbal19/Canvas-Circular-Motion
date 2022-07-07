@@ -538,7 +538,8 @@ const c = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 const colors = [
-    "#EFFFFD",
+    "cyan",
+    "#06283D",
     "#1363DF",
     "#47B5FF",
     "#DFF6FF"

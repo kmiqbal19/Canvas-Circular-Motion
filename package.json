@@ -2,7 +2,6 @@
   "name": "circular-anim",
   "version": "1.0.0",
   "description": "canvas anim",
-  "main": "src/script.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"

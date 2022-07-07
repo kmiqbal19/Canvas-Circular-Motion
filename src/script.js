@@ -4,7 +4,7 @@ const c = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const colors = ["#EFFFFD", "#1363DF", "#47B5FF", "#DFF6FF"];
+const colors = ["cyan", "#06283D", "#1363DF", "#47B5FF", "#DFF6FF"];
 const mouse = {
   x: canvas.width / 2,
   y: canvas.height / 2,
